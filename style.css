@@ -1,0 +1,119 @@
+* {
+    background-color: lightgrey;
+}
+
+.container {
+    border: 2px solid;
+    height: 700px;
+    width: 700px;
+    position: relative;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.right {
+    background-color: lightgray;
+    position: absolute;
+    width: 50px;
+    right: 10px;
+    top: 50px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: lightgray;
+
+}
+
+.bottom {
+    bottom: 0px;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightgray;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+}
+
+.left {
+    width: 50px;
+    top: 50px;
+    bottom: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: lightgrey;
+}
+
+.playgame {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    right: 60px;
+    bottom: 60px;
+    background-color: rgb(107, 147, 187);
+    flex-wrap: wrap;
+}
+
+.odd {
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(203, 119, 119); */
+}
+
+.col {
+    height: 70px;
+    width: 70px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.even {
+    display: flex;
+    width: 100%;
+    background-color: rgb(119, 119, 119);
+}
+
+.col img {
+    height: 100%;
+    width: 100%;
+    transition: all 1.9s ease;
+}
+
+.even1 {
+    transition: all 1.5s ease;
+    background-color: rgba(197, 12, 12, 0.707);
+}
+
+.odd1 {
+    transition: all 1.5s ease;
+    background-color: lightgrey;
+}
+
+h2::first-letter {
+    color: rgba(197, 12, 12, 0.707);
+}
