@@ -74,7 +74,7 @@ body {
     right: 60px;
     bottom: 60px;
     background-color: rgb(107, 147, 187);
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .odd {
